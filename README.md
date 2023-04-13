@@ -1,4 +1,7 @@
-# plugget-unreal
+# plugget-unreal (WIP)
+
+⚠️ heavy WIP, currently only installs command line plugget, no UI yet.
+
 unreal plugin to search &amp; install plugget packages 
 
 
