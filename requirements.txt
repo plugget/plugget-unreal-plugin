@@ -1,0 +1,4 @@
+git+https://github.com/hannesdelbeke/plugget-unreal
+git+https://github.com/hannesdelbeke/plugget-qt-search
+git+https://github.com/hannesdelbeke/unreal_qt
+
