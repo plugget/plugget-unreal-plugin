@@ -1,9 +1,11 @@
 # plugget-unreal (WIP)
 
-⚠️ heavy WIP, currently only installs command line plugget, no UI yet.
+⚠️ heavy WIP, currently only installs command line plugget.
 
 unreal plugin to search &amp; install [plugget](https://github.com/hannesdelbeke/plugget) packages 
 
+### usage instructions
+the UI can be opened with the command `import plugget_search_widget` after installation
 
 ### install instructions
 1. unzip & add the plugin folder to the unreal plugins folder
