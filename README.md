@@ -5,7 +5,11 @@
 unreal plugin to search &amp; install [plugget](https://github.com/hannesdelbeke/plugget) packages 
 
 ### usage instructions
-the UI can be opened with the command `import plugget_search_widget` after installation
+the UI can be opened with the command 
+```python
+import plugget_search_widget
+plugget_search_widget.window.show()
+```
 
 ### install instructions
 1. unzip & add the plugin folder to the unreal plugins folder
