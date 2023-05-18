@@ -4,6 +4,8 @@
 
 unreal plugin to search &amp; install [plugget](https://github.com/hannesdelbeke/plugget) packages 
 
+relies on [plugget-qt-search](https://github.com/hannesdelbeke/plugget-qt-search)
+
 ### usage instructions
 the UI can be opened with the command 
 ```python
