@@ -18,3 +18,7 @@ plugget_search_widget.window.show()
 2. restart or open unreal
 3. In Unreal go to the menu `edit/Plugins`
 4. search `plugget` and enable if disabled
+
+
+If this tool is helpfull, you can ⭐ star it on the github page,
+just click the ⭐ star button in the top-right of this page.
