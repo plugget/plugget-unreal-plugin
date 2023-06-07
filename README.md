@@ -10,7 +10,7 @@ relies on [plugget-qt-search](https://github.com/hannesdelbeke/plugget-qt-search
 the UI can be opened with the command 
 ```python
 import plugget_search_widget
-plugget_search_widget.window.show()
+w = plugget_search_widget.show()  = store reference in w, to prevent garbage collection
 ```
 
 ### install instructions
