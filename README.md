@@ -1,8 +1,6 @@
-# plugget-unreal (WIP)
+# plugget-unreal
 
-⚠️ heavy WIP, currently only installs command line plugget.
-
-unreal plugin to search &amp; install [plugget](https://github.com/hannesdelbeke/plugget) packages 
+unreal plugin to search & install [plugget](https://github.com/hannesdelbeke/plugget) packages 
 
 relies on [plugget-qt-search](https://github.com/hannesdelbeke/plugget-qt-search)
 
@@ -10,7 +8,7 @@ relies on [plugget-qt-search](https://github.com/hannesdelbeke/plugget-qt-search
 the UI can be opened with the command 
 ```python
 import plugget_search_widget
-w = plugget_search_widget.show()  = store reference in w, to prevent garbage collection
+w = plugget_search_widget.show()  # store reference in w, to prevent garbage collection
 ```
 
 ### install instructions
