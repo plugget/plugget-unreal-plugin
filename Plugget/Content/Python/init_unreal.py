@@ -43,7 +43,7 @@ def setup():
 
     # core requires
     # - plugget
-    pip_install(['plugget'])
+    pip_install(['git+https://github.com/hannesdelbeke/plugget-qt-search'])
 
     # for UI: =============================================================================================
     # - unreal-qt (optional)
