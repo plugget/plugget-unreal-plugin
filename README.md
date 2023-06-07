@@ -2,6 +2,8 @@
 
 unreal plugin to search & install [plugget](https://github.com/hannesdelbeke/plugget) packages 
 
+![image](https://github.com/plugget/plugget-qt-addon/assets/3758308/0752c140-5b26-452e-81ac-fc4e36ccdb23)<br>
+
 relies on [plugget-qt-search](https://github.com/hannesdelbeke/plugget-qt-search)
 
 ### usage instructions
