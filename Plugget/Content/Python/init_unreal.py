@@ -9,6 +9,27 @@ import importlib
 #     project_path = unreal.Paths.convert_relative_path_to_full(project_path)
 #     return Path(project_path)
 
+def create_script_editor_button():
+    """Add a button to the tool bar to launch the tool"""
+    
+    section_name = 'Plugins'
+    se_command = 'import plugget_search_widget;w = plugget_search_widget.show()'
+
+    menus = unreal.ToolMenus.get()
+    level_menu_bar = menus.find_menu('LevelEditor.LevelEditorToolBar.PlayToolBar')
+    level_menu_bar.add_section(section_name=section_name, label=section_name)
+
+    entry = unreal.ToolMenuEntry(type=unreal.MultiBlockType.TOOL_BAR_BUTTON)
+    entry.set_label('Plugget')
+    entry.set_tool_tip('open the Plugget UI Qt Window')
+    entry.set_icon('EditorStyle', 'DebugConsole.Icon')
+    entry.set_string_command(
+        type=unreal.ToolMenuStringCommandType.PYTHON,
+        custom_type=unreal.Name(''),
+        string=se_command
+    )
+    level_menu_bar.add_menu_entry(section_name, entry)
+    menus.refresh_all_widgets()
 
 def project_site_dir():
     content_path = unreal.Paths.project_content_dir()  # '../../../Users/USER/MyProject/Content/'
@@ -68,3 +89,5 @@ def setup():
     # import plugget_search_widget  # currently import creates the widget & shows it  # noqa
 
 setup()
+
+create_script_editor_button()
