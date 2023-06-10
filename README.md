@@ -4,7 +4,10 @@ Unreal plugin to search & install [plugget](https://github.com/hannesdelbeke/plu
 
 ![image](https://github.com/plugget/plugget-qt-addon/assets/3758308/0752c140-5b26-452e-81ac-fc4e36ccdb23)<br>
 
-relies on [plugget-qt-search](https://github.com/hannesdelbeke/plugget-qt-search)
+### dependencies
+- [plugget-qt-search](https://github.com/hannesdelbeke/plugget-qt-search)
+- pip (have python installed and pip in the path)
+- git (have git installed and in the path
 
 ### Install instructions
 1. Unzip & add the plugin folder to the unreal plugins folder
