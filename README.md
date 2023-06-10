@@ -19,5 +19,12 @@ import plugget_search_widget
 w = plugget_search_widget.show()  # store reference in w, to prevent garbage collection
 ```
 
+### Environment variables
+you can control how plugget loads on startup with these env vars
+- PLUGGET_UE_TOOL_BAR_BUTTON: adds a button to the tool bar to launch the UI 
+- PLUGGET_UE_MENU: adds a menu entry under Tools/Plugget **TODO** ⚠️not yetimplemented, verify path
+
+### Support
+
 If this tool is helpfull, you can ⭐ star it on the github page,
 just click the ⭐ star button in the top-right of this page.
