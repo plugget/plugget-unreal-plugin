@@ -2,6 +2,7 @@ from pathlib import Path
 import subprocess
 import unreal
 import importlib
+import os
 
 
 # def project_plugins_dir():
@@ -90,4 +91,8 @@ def setup():
 
 setup()
 
-create_script_editor_button()
+if os.getenv("PLUGGET_UE_TOOL_BAR_BUTTON", 0):
+    create_script_editor_button()
+
+if os.getenv("PLUGGET_UE_MENU", 0):
+    pass  # todo add to menu
