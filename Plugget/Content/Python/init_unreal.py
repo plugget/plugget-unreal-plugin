@@ -88,7 +88,7 @@ def setup():
     try:
         import plugget_qt
     except ImportError:
-        pip_install(['git+https://github.com/hannesdelbeke/plugget-qt-search'])
+        pip_install(['git+https://github.com/plugget/plugget-qt'])
 
 
 setup()
