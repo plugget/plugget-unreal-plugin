@@ -70,7 +70,7 @@ def project_site_dir():
 
 
 def pip_install(names):
-    cmd = ['pip', 'install', *names, '-t', str(project_site_dir())]
+    cmd = ['pip', 'install', *names, '-t', str(project_site_dir()), '--upgrade']
     proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True)
     importlib.invalidate_caches()  # refresh modules
     out, err = proc.communicate()
