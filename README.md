@@ -13,11 +13,9 @@ relies on [plugget-qt-search](https://github.com/hannesdelbeke/plugget-qt-search
 
 
 ### usage instructions
-the UI can be opened with the command 
-```python
-import plugget_search_widget
-w = plugget_search_widget.show()  # store reference in w, to prevent garbage collection
-```
+- The UI can be opened from the menu or toolbar if you set the env vars (see below)
+- Search for plugget packages, and click install to install the selected version
+- List installed packages with the list button
 
 ### Environment variables
 you can control how plugget loads on startup with these env vars

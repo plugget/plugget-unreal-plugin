@@ -5,7 +5,7 @@ import importlib
 import os
 
 
-plugget_qt_launch_cmd = 'import plugget_search_widget;w = plugget_search_widget.show()'
+plugget_qt_launch_cmd = 'import plugget_qt;w = plugget_qt.show()'
 
 # def project_plugins_dir():
 #     project_path = unreal.Paths.project_plugins_dir()
