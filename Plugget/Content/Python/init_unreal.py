@@ -91,7 +91,10 @@ def setup():
 
     # core requires
     # - plugget
-    pip_install(['git+https://github.com/hannesdelbeke/plugget-qt-search'])
+    try:
+        import plugget_qt
+    except ImportError:
+        pip_install(['git+https://github.com/hannesdelbeke/plugget-qt-search'])
 
     # for UI: =============================================================================================
     # - unreal-qt (optional)
