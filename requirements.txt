@@ -1,2 +1,1 @@
-git+https://github.com/hannesdelbeke/plugget-qt-search
-
+https://github.com/plugget/plugget-qt
