@@ -1,11 +1,11 @@
 # Plugget Unreal plugin
 
-Unreal plugin to search & install [plugget](https://github.com/hannesdelbeke/plugget) packages 
+Unreal plugin to search & install [plugget](https://github.com/plugget/plugget) packages 
 
 ![image](https://github.com/plugget/plugget-qt-addon/assets/3758308/0752c140-5b26-452e-81ac-fc4e36ccdb23)<br>
 
 ### dependencies
-- [plugget-qt-search](https://github.com/hannesdelbeke/plugget-qt-search)
+- [plugget-qt](https://github.com/plugget/plugget-qt)
 - pip (have python installed and pip in the path)
 - git (have git installed and in the path
 
@@ -24,6 +24,10 @@ Unreal plugin to search & install [plugget](https://github.com/hannesdelbeke/plu
 you can control how plugget loads on startup with these env vars
 - `PLUGGET_UE_TOOL_BAR_BUTTON`: default to `0`, if set to `1`, adds a button to the tool bar to launch the UI 
 - `PLUGGET_UE_MENU`:  default to `0`, if set to `1`, adds a menu entry under Tools/Plugget **TODO** ⚠️not yetimplemented, verify path
+
+### devs
+- This repo contains the unreal plugin `Plugget`, and no Python modules.
+- The Python dependencies it installs are `plugget` & `plugget_qt`
 
 ### Support
 
