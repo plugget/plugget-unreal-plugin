@@ -1,1 +1,1 @@
-https://github.com/plugget/plugget-qt
+plugget-qt
