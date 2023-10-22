@@ -10,9 +10,10 @@ Unreal plugin to search & install [plugget](https://github.com/plugget/plugget) 
 - git (have git installed and in the path
 
 ### Install instructions
-1. Unzip & add the `plugget` folder to Unreal's plugins folder
-2. Restart or open Unreal
-3. Enable the `plugget` plugin from the menu `edit/Plugins`
+1. [DOwnload](https://github.com/plugget/plugget-unreal-plugin/archive/refs/heads/main.zip) and Unzip
+2. Copy the `plugget` folder inside the unzipped folder, to Unreal's plugins folder
+3. Restart or open Unreal
+4. Enable the `plugget` plugin from the menu `edit/Plugins`
 
 
 ### usage instructions
