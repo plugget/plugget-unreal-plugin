@@ -10,10 +10,12 @@ Unreal plugin to search & install [plugget](https://github.com/plugget/plugget) 
 - git (have git installed and in the path
 
 ### Install instructions
-1. [Download](https://github.com/plugget/plugget-unreal-plugin/archive/refs/heads/main.zip) and Unzip
-2. Copy the `plugget` folder inside the unzipped folder, to Unreal's plugins folder
-3. Restart or open Unreal
-4. Enable the `plugget` plugin from the menu `edit/Plugins`
+1. Install Qt bindings, e.g. [plugget-qt](https://github.com/plugget/plugget-qt)
+2. Install git
+3. [Download](https://github.com/plugget/plugget-unreal-plugin/archive/refs/heads/main.zip) and Unzip
+4. Copy the `plugget` folder inside the unzipped folder, to Unreal's plugins folder
+5. Restart or open Unreal
+6. Enable the `plugget` plugin from the menu `edit/Plugins`
 
 
 ### usage instructions
