@@ -17,7 +17,7 @@ Install the dependencies to Unreal's engine folder:
 set UE_FOLDER="D:\Program Files\Epic Games\UE_5.4"
 set PYTHON_FOLDER=%UE_FOLDER%\Engine\Binaries\ThirdParty\Python3\Win64
 cd /d %PYTHON_FOLDER%
-python -m pip install PySide2 plugget-qt --target %PYTHON_FOLDER%\Lib\site-packages
+python -m pip install PySide6 plugget-qt --target %PYTHON_FOLDER%\Lib\site-packages
 ```
 3. Install git
 ```
