@@ -13,8 +13,9 @@ Unreal plugin to search & install [plugget](https://github.com/plugget/plugget) 
 1. Install Python dependencies.
 This cmd-command installs the dependencies to Unreal's engine folder on Windows:
 ```bash
-cd "D:\Program Files\Epic Games\UE_5.4\Engine\Binaries\ThirdParty\Python3\Win64\"
-python -m pip install PySide2 plugget-qt --target "D:\Program Files\Epic Games\UE_5.4\Engine\Binaries\ThirdParty\Python3\Win64\Lib\site-packages"
+UE_FOLDER="D:\Program Files\Epic Games\UE_5.4"
+PYTHON_FOLDER="$UE_FOLDER\Engine\Binaries\ThirdParty\Python3\Win64"
+"$PYTHON_FOLDER/python.exe" -m pip install PySide2 plugget-qt --target "$PYTHON_FOLDER\Lib\site-packages"
 ```
 3. Install git
 4. [Download](https://github.com/plugget/plugget-unreal-plugin/archive/refs/heads/main.zip) and Unzip
