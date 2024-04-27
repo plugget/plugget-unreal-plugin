@@ -97,4 +97,7 @@ if os.getenv("PLUGGET_UE_TOOL_BAR_BUTTON", "0") == "1":
     create_script_editor_button()
 
 if os.getenv("PLUGGET_UE_MENU", "0") == "1":
-    add_cmd_to_menu(label="plugget", command=plugget_qt_launch_cmd)
+    add_cmd_to_menu(label="plugget",
+                    command=plugget_qt_launch_cmd,
+                    tooltip="open the Plugget UI Qt Window"
+                    )
