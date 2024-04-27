@@ -26,7 +26,8 @@ winget install git.git
 4. [Download](https://github.com/plugget/plugget-unreal-plugin/archive/refs/heads/main.zip) and Unzip
 5. Copy the `plugget` folder inside the unzipped folder, to Unreal's plugins folder
 6. Restart or open Unreal
-7. Enable the `plugget` plugin from the menu `edit/Plugins`
+7. Open the plugin editor from the menu `edit/Plugins`
+8. Enable the `plugget` plugin 
 
 
 ### usage instructions
