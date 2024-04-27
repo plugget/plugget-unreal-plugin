@@ -10,8 +10,12 @@ Unreal plugin to search & install [plugget](https://github.com/plugget/plugget) 
 - git (have git installed and in the path
 
 ### Install instructions
-1. Install Qt bindings, e.g. PySide2 PySide6
-2. Install plugget-qt
+1. Install Python dependencies.
+This cmd-command installs the dependencies to Unreal's engine folder on Windows:
+```bash
+cd "D:\Program Files\Epic Games\UE_5.4\Engine\Binaries\ThirdParty\Python3\Win64\"
+python -m pip install PySide2 plugget-qt --target "D:\Program Files\Epic Games\UE_5.4\Engine\Binaries\ThirdParty\Python3\Win64\Lib\site-packages"
+```
 3. Install git
 4. [Download](https://github.com/plugget/plugget-unreal-plugin/archive/refs/heads/main.zip) and Unzip
 5. Copy the `plugget` folder inside the unzipped folder, to Unreal's plugins folder
