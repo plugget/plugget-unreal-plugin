@@ -11,11 +11,12 @@ Unreal plugin to search & install [plugget](https://github.com/plugget/plugget) 
 
 ### Install instructions
 1. Install Qt bindings, e.g. PySide2 PySide6
-2. Install git
-3. [Download](https://github.com/plugget/plugget-unreal-plugin/archive/refs/heads/main.zip) and Unzip
-4. Copy the `plugget` folder inside the unzipped folder, to Unreal's plugins folder
-5. Restart or open Unreal
-6. Enable the `plugget` plugin from the menu `edit/Plugins`
+2. Install plugget-qt
+3. Install git
+4. [Download](https://github.com/plugget/plugget-unreal-plugin/archive/refs/heads/main.zip) and Unzip
+5. Copy the `plugget` folder inside the unzipped folder, to Unreal's plugins folder
+6. Restart or open Unreal
+7. Enable the `plugget` plugin from the menu `edit/Plugins`
 
 
 ### usage instructions
