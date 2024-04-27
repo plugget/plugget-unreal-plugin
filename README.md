@@ -19,7 +19,7 @@ set PYTHON_FOLDER=%UE_FOLDER%\Engine\Binaries\ThirdParty\Python3\Win64
 cd /d %PYTHON_FOLDER%
 python -m pip install PySide6 plugget-qt --target %PYTHON_FOLDER%\Lib\site-packages
 ```
-3. Install git
+3. Install git (plugget uses this to install packages)
 ```
 winget install git.git
 ```
