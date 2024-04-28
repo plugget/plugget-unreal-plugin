@@ -13,7 +13,10 @@ Unreal plugin to search & install [plugget](https://github.com/plugget/plugget) 
 The following instructions are for Windows:
 1. Install Python dependencies.
 Install the dependencies to Unreal's engine folder:
-⚠️ PySide 6.7 has a breaking bug. Install older version for now
+
+⚠️ PySide 6.7 has a breaking bug. Install older version for now  
+py3.11 has no available older versions for PySide6  
+
 ```batch
 set UE_FOLDER="D:\Program Files\Epic Games\UE_5.4"
 set PYTHON_FOLDER=%UE_FOLDER%\Engine\Binaries\ThirdParty\Python3\Win64
