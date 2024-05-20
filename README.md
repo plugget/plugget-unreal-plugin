@@ -7,8 +7,10 @@ Unreal plugin to search & install [plugget](https://github.com/plugget/plugget) 
 ### Install instructions
 <details>
 <summary>1. Install git</summary>
-  (plugget uses this to install packages)
-   open the command prompt on Windows and run the below command:
+  
+  (plugget uses this to install packages)  
+   open the command prompt on Windows and run the below command:  
+  
 ```
 winget install git.git
 ```
@@ -17,13 +19,15 @@ winget install git.git
 
 <details>
 <summary>2. Copy the plugin to unreal's plugin folder</summary>
-  - [Download](https://github.com/plugget/plugget-unreal-plugin/archive/refs/heads/main.zip) and Unzip
-  - Copy the `plugget` folder inside the unzipped folder, to Unreal's plugins folder
+  
+  - [Download](https://github.com/plugget/plugget-unreal-plugin/archive/refs/heads/main.zip) and Unzip  
+  - Copy the `plugget` folder inside the unzipped folder, to Unreal's plugins folder  
 </details>
 
 
 <details>
 <summary>3. Enable the plugin</summary>
+  
   - Restart or open Unreal
   - Open the plugin editor from the menu `edit/Plugins`
   - Enable the `plugget` plugin
@@ -34,6 +38,7 @@ winget install git.git
 Dependencies are auto installed on startup, if that fails try manually:
 <details>
 <summary>(optional) Manually install Python dependencies</summary>
+  
 Install the dependencies to Unreal's engine folder:
 
 ⚠️ PySide 6.7 has a breaking bug. Install older version for now  
