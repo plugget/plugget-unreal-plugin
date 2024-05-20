@@ -5,20 +5,9 @@ Unreal plugin to search & install [plugget](https://github.com/plugget/plugget) 
 ![image](https://github.com/plugget/plugget-qt-addon/assets/3758308/0752c140-5b26-452e-81ac-fc4e36ccdb23)<br>
 
 ### Install instructions
-<details>
-<summary>1. Install git</summary>
-  
-  (plugget uses this to install packages)  
-   open the command prompt on Windows and run the below command:  
-  
-```
-winget install git.git
-```
-</details>
-
 
 <details>
-<summary>2. Copy the plugin to unreal's plugin folder</summary>
+<summary>1. Copy the plugin to unreal's plugin folder</summary>
   
   - [Download](https://github.com/plugget/plugget-unreal-plugin/archive/refs/heads/main.zip) and Unzip  
   - Copy the `plugget` folder inside the unzipped folder, to Unreal's plugins folder  
@@ -26,7 +15,7 @@ winget install git.git
 
 
 <details>
-<summary>3. Enable the plugin</summary>
+<summary>2. Enable the plugin</summary>
   
   - Restart or open Unreal
   - Open the plugin editor from the menu `edit/Plugins`
@@ -50,6 +39,18 @@ set PYTHON_FOLDER=%UE_FOLDER%\Engine\Binaries\ThirdParty\Python3\Win64
 cd /d %PYTHON_FOLDER%
 python -m pip install PySide6 --version 6.6.3.1 --target %PYTHON_FOLDER%\Lib\site-packages
 python -m pip install plugget-qt --target %PYTHON_FOLDER%\Lib\site-packages
+```
+</details>
+
+
+<details>
+<summary>(optional) Install git to support git clone package installs</summary>
+  
+  (plugget uses this to install packages)  
+   open the command prompt on Windows and run the below command:  
+  
+```
+winget install git.git
 ```
 </details>
 
