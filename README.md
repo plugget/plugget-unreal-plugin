@@ -4,14 +4,24 @@ Unreal plugin to search & install [plugget](https://github.com/plugget/plugget) 
 
 ![image](https://github.com/plugget/plugget-qt-addon/assets/3758308/0752c140-5b26-452e-81ac-fc4e36ccdb23)<br>
 
-### dependencies
-- [plugget-qt](https://github.com/plugget/plugget-qt)
-- pip (have python installed and pip in the path)
-- git (have git installed and in the path
-
 ### Install instructions
 The following instructions are for Windows:
-1. Install Python dependencies.
+
+1. Install git (plugget uses this to install packages)
+```
+winget install git.git
+```
+2. Copy the plugget plugin to unreal's plugin folder
+  - [Download](https://github.com/plugget/plugget-unreal-plugin/archive/refs/heads/main.zip) and Unzip
+  - Copy the `plugget` folder inside the unzipped folder, to Unreal's plugins folder
+3. Enable the plugin
+  - Restart or open Unreal
+  - Open the plugin editor from the menu `edit/Plugins`
+  - Enable the `plugget` plugin
+  - Restart Unreal
+
+<details>
+<summary>Manually install Python dependencies</summary>
 Install the dependencies to Unreal's engine folder:
 
 ⚠️ PySide 6.7 has a breaking bug. Install older version for now  
@@ -24,15 +34,12 @@ cd /d %PYTHON_FOLDER%
 python -m pip install PySide6 --version 6.6.3.1 --target %PYTHON_FOLDER%\Lib\site-packages
 python -m pip install plugget-qt --target %PYTHON_FOLDER%\Lib\site-packages
 ```
-3. Install git (plugget uses this to install packages)
-```
-winget install git.git
-```
-4. [Download](https://github.com/plugget/plugget-unreal-plugin/archive/refs/heads/main.zip) and Unzip
-5. Copy the `plugget` folder inside the unzipped folder, to Unreal's plugins folder
-6. Restart or open Unreal
-7. Open the plugin editor from the menu `edit/Plugins`
-8. Enable the `plugget` plugin 
+</details>
+
+### dependencies
+- [plugget-qt](https://github.com/plugget/plugget-qt)
+- pip (have python installed and pip in the path)
+- git (have git installed and in the path
 
 
 ### usage instructions
