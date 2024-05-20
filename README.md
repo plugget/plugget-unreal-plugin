@@ -10,7 +10,7 @@ Unreal plugin to search & install [plugget](https://github.com/plugget/plugget) 
 <summary>1. Copy the plugin to unreal's plugin folder</summary>
   
   - [Download](https://github.com/plugget/plugget-unreal-plugin/archive/refs/heads/main.zip) and Unzip  
-  - Copy the `plugget` folder inside the unzipped folder, to Unreal's plugins folder  
+  - Copy the extracted `plugget` folder to Unreal's plugins folder  
 </details>
 
 
