@@ -17,8 +17,7 @@ Unreal plugin to search & install [plugget](https://github.com/plugget/plugget) 
 <details>
 <summary>2. Enable the plugin</summary>
   
-  - Restart or open Unreal
-  - Open the plugin editor from the menu `edit/Plugins`
+  - Open the Unreal plugin editor from the menu `edit/Plugins`
   - Enable the `plugget` plugin
   - Restart Unreal
 </details>
