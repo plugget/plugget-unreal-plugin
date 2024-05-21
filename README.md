@@ -4,6 +4,15 @@ Unreal plugin to search & install [plugget](https://github.com/plugget/plugget) 
 
 ![image](https://github.com/plugget/plugget-qt-addon/assets/3758308/0752c140-5b26-452e-81ac-fc4e36ccdb23)<br>
 
+
+## Usage instructions
+- Open the Plugget Package Manager from Unreal menu `Edit > Plugget Packages`
+
+How to use:
+- Search for plugget packages, click install to install the selected version
+- List installed packages with the list button
+
+
 ## Install instructions
 
 <details>
@@ -53,11 +62,6 @@ winget install git.git
 ```
 </details>
 
-
-## Usage instructions
-- The UI can be opened from the menu or toolbar if you set the env vars (see below)
-- Search for plugget packages, and click install to install the selected version
-- List installed packages with the list button
 
 
 ### dependencies
